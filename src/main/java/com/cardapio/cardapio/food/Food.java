@@ -1,9 +1,6 @@
 package com.cardapio.cardapio.food;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 @Table(name = "foods")
 @Entity(name = "foods")
